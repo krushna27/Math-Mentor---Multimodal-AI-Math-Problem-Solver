@@ -17,3 +17,4 @@ pandas==2.2.0
 faiss-cpu==1.7.4
 opencv-python-headless==4.8.1.78
 soundfile==0.12.1
+torch==2.6.0
