@@ -1,0 +1,35 @@
+LINEAR ALGEBRA FORMULAS AND CONCEPTS
+
+Matrices:
+- Addition: [A + B]ᵢⱼ = aᵢⱼ + bᵢⱼ
+- Scalar multiplication: [kA]ᵢⱼ = k × aᵢⱼ
+- Matrix multiplication: [AB]ᵢⱼ = Σₖ aᵢₖbₖⱼ
+- Transpose: [Aᵀ]ᵢⱼ = aⱼᵢ
+
+Properties:
+- (AB)ᵀ = BᵀAᵀ
+- (AB)C = A(BC)
+- A(B+C) = AB + AC
+- AB ≠ BA in general
+
+Determinants:
+- 2×2: det|a b; c d| = ad - bc
+- 3×3: Use cofactor expansion
+- det(AB) = det(A) × det(B)
+- det(Aᵀ) = det(A)
+
+Inverse:
+- AA⁻¹ = A⁻¹A = I
+- (AB)⁻¹ = B⁻¹A⁻¹
+- (Aᵀ)⁻¹ = (A⁻¹)ᵀ
+- A⁻¹ exists ⟺ det(A) ≠ 0
+
+System of Equations:
+- AX = B has unique solution if det(A) ≠ 0
+- X = A⁻¹B
+- Cramer's rule: xᵢ = det(Aᵢ)/det(A)
+
+Common Mistakes:
+- Matrix multiplication is not commutative
+- Check dimensions before multiplying
+- Determinant of product ≠ product of determinants

@@ -1,0 +1,33 @@
+PROBABILITY FORMULAS AND CONCEPTS
+
+Basic Probability:
+- P(A) = favorable outcomes / total outcomes
+- 0 ≤ P(A) ≤ 1
+- P(A') = 1 - P(A)
+
+Addition Rules:
+- P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+- For mutually exclusive: P(A ∪ B) = P(A) + P(B)
+
+Multiplication Rules:
+- P(A ∩ B) = P(A) × P(B|A)
+- For independent: P(A ∩ B) = P(A) × P(B)
+
+Conditional Probability:
+- P(A|B) = P(A ∩ B) / P(B)
+- Bayes' Theorem: P(A|B) = P(B|A) × P(A) / P(B)
+
+Combinatorics:
+- Permutation: nPr = n! / (n-r)!
+- Combination: nCr = n! / (r!(n-r)!)
+- Circular permutation: (n-1)!
+
+Distributions:
+- Binomial: P(X=k) = nCk × p^k × (1-p)^(n-k)
+- Expected value: E(X) = Σ x × P(x)
+- Variance: Var(X) = E(X²) - [E(X)]²
+
+Common Mistakes:
+- Confusing P(A|B) with P(B|A)
+- Forgetting to account for replacement
+- Not checking if events are independent

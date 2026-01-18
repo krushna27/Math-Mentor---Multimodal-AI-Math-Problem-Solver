@@ -1,0 +1,33 @@
+CALCULUS FORMULAS AND CONCEPTS
+
+Limits:
+- lim(x→a) [f(x) + g(x)] = lim(x→a) f(x) + lim(x→a) g(x)
+- lim(x→a) [f(x) × g(x)] = lim(x→a) f(x) × lim(x→a) g(x)
+- lim(x→0) (sin x)/x = 1
+- lim(x→∞) (1 + 1/x)^x = e
+
+L'Hôpital's Rule:
+- For 0/0 or ∞/∞: lim f(x)/g(x) = lim f'(x)/g'(x)
+
+Derivatives:
+- Power rule: d/dx(x^n) = nx^(n-1)
+- Product rule: d/dx(uv) = u'v + uv'
+- Quotient rule: d/dx(u/v) = (u'v - uv')/v²
+- Chain rule: d/dx[f(g(x))] = f'(g(x)) × g'(x)
+
+Standard Derivatives:
+- d/dx(e^x) = e^x
+- d/dx(ln x) = 1/x
+- d/dx(sin x) = cos x
+- d/dx(cos x) = -sin x
+- d/dx(tan x) = sec²x
+
+Optimization:
+- Critical points: f'(x) = 0
+- Local max: f'(x) = 0 and f''(x) < 0
+- Local min: f'(x) = 0 and f''(x) > 0
+
+Common Mistakes:
+- Forgetting chain rule
+- Sign errors in derivatives
+- Not checking endpoints in optimization
