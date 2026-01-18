@@ -121,7 +121,7 @@ graph TD
 
 ### 1. Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/krushna27/Math-Mentor---Multimodal-AI-Math-Problem-Solver.git
 cd math-mentor
 ```
 
